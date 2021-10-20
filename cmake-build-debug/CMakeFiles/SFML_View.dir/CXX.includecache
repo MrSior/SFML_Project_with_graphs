@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/simonchubenko/Documents/C++/SFML_View/main.cpp
+iostream
+-
+cmath
+/Users/simonchubenko/Documents/C++/SFML_View/cmath
+SFML/Graphics.hpp
+/Users/simonchubenko/Documents/C++/SFML_View/SFML/Graphics.hpp
+

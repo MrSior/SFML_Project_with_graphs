@@ -1,0 +1,3 @@
+/Users/simonchubenko/Documents/C++/SFML_View/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/simonchubenko/Documents/C++/SFML_View/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/simonchubenko/Documents/C++/SFML_View/cmake-build-debug/CMakeFiles/SFML_View.dir
