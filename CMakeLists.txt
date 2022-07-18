@@ -3,6 +3,6 @@ project(SFML_View)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SFML_View main.cpp)
+add_executable(SFML_View main.cpp Node.h InsertLineMenu/InsertLineMenuController.cpp InsertLineMenu/InsertLineMenuController.h InsertLineMenu/InsertLineMenuModel.cpp InsertLineMenu/InsertLineMenuModel.h InsertLineMenu/InsertLineMenuRender.cpp InsertLineMenu/InsertLineMenuRender.h InsertLinesMenu/InsertLinesMenuController.cpp InsertLinesMenu/InsertLinesMenuController.h InsertLinesMenu/InsertLinesMenuModel.cpp InsertLinesMenu/InsertLinesMenuModel.h InsertLinesMenu/InsertLinesMenuRender.cpp InsertLinesMenu/InsertLinesMenuRender.h)
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 target_link_libraries(SFML_View sfml-graphics sfml-audio)

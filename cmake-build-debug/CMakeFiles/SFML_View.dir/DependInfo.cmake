@@ -1,16 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/simonchubenko/Documents/C++/SFML_View/main.cpp" "/Users/simonchubenko/Documents/C++/SFML_View/cmake-build-debug/CMakeFiles/SFML_View.dir/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/Library/Frameworks/SFML.framework"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/simonchubenko/Documents/C++/SFML_View/InsertLineMenu/InsertLineMenuController.cpp" "CMakeFiles/SFML_View.dir/InsertLineMenu/InsertLineMenuController.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/InsertLineMenu/InsertLineMenuController.cpp.o.d"
+  "/Users/simonchubenko/Documents/C++/SFML_View/InsertLineMenu/InsertLineMenuModel.cpp" "CMakeFiles/SFML_View.dir/InsertLineMenu/InsertLineMenuModel.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/InsertLineMenu/InsertLineMenuModel.cpp.o.d"
+  "/Users/simonchubenko/Documents/C++/SFML_View/InsertLineMenu/InsertLineMenuRender.cpp" "CMakeFiles/SFML_View.dir/InsertLineMenu/InsertLineMenuRender.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/InsertLineMenu/InsertLineMenuRender.cpp.o.d"
+  "/Users/simonchubenko/Documents/C++/SFML_View/InsertLinesMenu/InsertLinesMenuController.cpp" "CMakeFiles/SFML_View.dir/InsertLinesMenu/InsertLinesMenuController.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/InsertLinesMenu/InsertLinesMenuController.cpp.o.d"
+  "/Users/simonchubenko/Documents/C++/SFML_View/InsertLinesMenu/InsertLinesMenuModel.cpp" "CMakeFiles/SFML_View.dir/InsertLinesMenu/InsertLinesMenuModel.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/InsertLinesMenu/InsertLinesMenuModel.cpp.o.d"
+  "/Users/simonchubenko/Documents/C++/SFML_View/InsertLinesMenu/InsertLinesMenuRender.cpp" "CMakeFiles/SFML_View.dir/InsertLinesMenu/InsertLinesMenuRender.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/InsertLinesMenu/InsertLinesMenuRender.cpp.o.d"
+  "/Users/simonchubenko/Documents/C++/SFML_View/main.cpp" "CMakeFiles/SFML_View.dir/main.cpp.o" "gcc" "CMakeFiles/SFML_View.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
